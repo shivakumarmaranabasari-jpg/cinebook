@@ -1,0 +1,26 @@
+{
+  "name": "cinebook-root",
+  "version": "1.0.0",
+  "description": "CineBook - Online Movie Ticket Booking Management System (Full Stack MERN)",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "dev": "npm run dev:server",
+    "dev:backend": "npm --prefix server run dev",
+    "dev:frontend": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "movie-booking",
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "jwt",
+    "cinebook"
+  ],
+  "author": "Shivakumar M",
+  "license": "ISC"
+}
